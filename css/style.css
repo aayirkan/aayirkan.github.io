@@ -5,3 +5,12 @@ body {
 .testtext {
     color: #add8e6;
 }
+
+.ardafoto {
+    float: right;
+    width: 250px;
+    margin-right: 45px;
+    height: 750px;
+    margin-top: 150px;
+    margin-right: 200px;
+}
