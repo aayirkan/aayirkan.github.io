@@ -63,3 +63,10 @@ body {
   .content {
     padding-bottom: 60px;
   }
+
+  .btn {
+    color: white;
+    background-color: #424bb3;
+    width: 100px;
+    border: 2px solid white;
+  }
