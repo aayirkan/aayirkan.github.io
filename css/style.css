@@ -118,11 +118,13 @@ body {
     color: black;
   }
 
-  .bi-github {
+  .bi-github, .bi-linkedin {
     width: 32px; 
     height: 32px;
     margin-right: 10px; 
+    margin-left: 10px; 
   }
+  
   
   .footer p {
     margin-bottom: 5px; 
