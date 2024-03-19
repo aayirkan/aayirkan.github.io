@@ -41,3 +41,25 @@ body {
     margin-top: 100px;
 }
 
+.card {
+    height: 100%;
+}
+
+/* Zorg ervoor dat de afbeeldingen de volledige hoogte van de kaart innemen en worden bijgesneden indien nodig */
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Stel de hoogte van de afbeelding in */
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Donkere achtergrondkleur */
+    color: #ffffff; /* Witte tekstkleur */
+    padding: 20px; /* Optionele opvulling voor de inhoud van de footer */
+  }
+
+  .content {
+    padding-bottom: 60px;
+  }
