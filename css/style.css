@@ -13,11 +13,14 @@ body {
     margin-top:  68px;
 }
 
-.nav-link:hover {
-    color: #1b9aaa;
-}
-
-
+.nav-link {
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #424bb3; /* Grijze kleur wanneer erover wordt gehoverd */
+  }
+  
 
 .cvbutton {
     width: 150px;
@@ -47,9 +50,10 @@ body {
 
 /* Zorg ervoor dat de afbeeldingen de volledige hoogte van de kaart innemen en worden bijgesneden indien nodig */
 .card-img-top {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    height: 200px; /* Stel de hoogte van de afbeelding in */
-}
+  }
 
 .footer {
     left: 0;
