@@ -58,6 +58,8 @@ body {
     background-color: #343a40; /* Donkere achtergrondkleur */
     color: #ffffff; /* Witte tekstkleur */
     padding: 20px; /* Optionele opvulling voor de inhoud van de footer */
+    display: flex; /* Gebruik flexbox */
+    align-items: center; /* Centreer verticaal */
   }
 
   .content {
@@ -91,33 +93,37 @@ body {
     border-radius: 5px; /* Afronding van de hoeken */
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Overgangseffect voor de achtergrondkleur */
+    transition: background-color 0.3s ease; 
   }
 
   .aboutbtn:hover {
-    background-color: black; /* Donkerder achtergrondkleur wanneer eroverheen wordt gehoverd */
+    background-color: black; 
     color: white;
   }
 
   .knopsend {
     width: 150px;
-    height: 40px; /* De hoogte van de knop */
-    background-color: #424bb3; /* Standaard achtergrondkleur */
-    color: #fff; /* Tekstkleur */
+    height: 40px; 
+    background-color: #424bb3;
+    color: #fff;
     border: none;
-    border-radius: 5px; /* Afronding van de hoeken */
+    border-radius: 5px; 
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Overgangseffect voor de achtergrondkleur */
+    transition: background-color 0.3s ease; 
   }
 
   .knopsend:hover {
-    background-color: white; /* Donkerder achtergrondkleur wanneer eroverheen wordt gehoverd */
+    background-color: white; 
     color: black;
   }
 
   .bi-github {
     width: 32px; 
     height: 32px;
+    margin-right: 10px; 
   }
   
+  .footer p {
+    margin-bottom: 5px; 
+  }
