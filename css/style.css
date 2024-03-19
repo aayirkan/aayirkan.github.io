@@ -115,3 +115,9 @@ body {
     background-color: white; /* Donkerder achtergrondkleur wanneer eroverheen wordt gehoverd */
     color: black;
   }
+
+  .bi-github {
+    width: 32px; 
+    height: 32px;
+  }
+  
