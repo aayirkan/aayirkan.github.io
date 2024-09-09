@@ -1,5 +1,5 @@
 body {
-    background-color: #1b9aaa;
+    background-color: #3B4A57;
     overflow-x: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -132,4 +132,8 @@ body {
   
   .footer p {
     margin-bottom: 5px; 
+  }
+
+  .custom-bg {
+    background-color:#2C3E50; 
   }
